@@ -35,7 +35,9 @@ function esVocal(a){
 Crear un repo en github y subir todo el proyecto. Se ignorará la carpeta node_modules (para ellos está creado el archivo .gitignore en este proyecto) Esta función devolverá un string con la url del repo.
 */
 function urlRepo() {
-  return
+  
+  urlRepo = "https://github.com/sebastiananea/Tp1-Fizzmod";
+  return urlRepo;
 }
 
 /* 
