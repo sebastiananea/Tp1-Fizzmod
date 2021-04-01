@@ -36,7 +36,7 @@ Crear un repo en github y subir todo el proyecto. Se ignorará la carpeta node_m
 */
 function urlRepo() {
   
-  urlRepo = "https://github.com/sebastiananea/Tp1-Fizzmod";
+  urlRepo = "https://github.com/sebastiananea/Tp1-Fizzmod.git";
   return urlRepo;
 }
 
