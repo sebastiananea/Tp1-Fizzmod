@@ -5,7 +5,7 @@ function contarVocales(texto) {
   if(typeof(texto) === 'string'){
 
 
-    contador = 0;
+   let contador = 0;
     for (let i = 0; i < texto.length; i++){
       if(esVocal(texto[i])){
         contador++;
@@ -36,7 +36,7 @@ Crear un repo en github y subir todo el proyecto. Se ignorará la carpeta node_m
 */
 function urlRepo() {
   
-  urlRepo = "https://github.com/sebastiananea/Tp1-Fizzmod.git";
+  const urlRepo = "https://github.com/sebastiananea/Tp1-Fizzmod.git";
   return urlRepo;
 }
 
